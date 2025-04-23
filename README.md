@@ -14,3 +14,12 @@ This repository contains my first ROS 2 node, implemented in Python. The node lo
 1. Clone this repository:
    ```bash
    git clone https://github.com/username/my_first_ros2_node.git
+
+2. Build the package:
+   ```bash
+   cd ~/ros2_ws
+   colcon build --packages-select my_robot_controller
+
+3.Source the workspace:
+   ```bash
+   source ~/ros2_ws/install/setup.bash
